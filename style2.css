@@ -1,0 +1,46 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.content > #text,#email,#button{
+ margin:5px;
+ font-size: 40%;
+ height: 20px;
+ border-radius: 5px;
+ border: none;
+ outline: none;
+}
+.content > p{
+  font-size: 10px;
+}
+textarea{
+   height: 150px;
+   margin:5px;
+   font-size: 40%;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+}
+#button{
+  width:100px;
+  background-color: #00BCD4;
+}
+
+
+
+.footer > img{
+  width: 80px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h4{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}

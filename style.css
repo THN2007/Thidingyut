@@ -1,0 +1,72 @@
+.head > img{
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.link{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.link > a{
+  font-size: 10px;
+  text-decoration: none;
+  color: orange;
+}
+
+/*end*/
+
+.secdiv{
+  margin-top: 3.5px;
+  height: 25vh;
+  background-image: url('./background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.secdiv > span,span,p{
+  color: white;
+  font-size: 50%;
+}
+.secdiv > div{
+  width: 60%;
+  height: 100%;
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
+.iof > img{
+  width: 2vh;
+  margin: 0 8px;
+}
+.iof{
+  display: flex;
+  align-items: center;
+  
+}
+.iofm{
+  display: flex;
+  justify-content: space-evenly
+}
+.img > div > img{
+  width: 30%;
+  margin: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.img > div {
+  display: flex;
+  align-items: stretch;
+  
+}
+.img{
+  margin: 0 auto;
+}
+.iof > p {
+  font-size: 30%;
+}
